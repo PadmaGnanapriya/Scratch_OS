@@ -26,6 +26,24 @@ kmain()
 #include "include/screen.h"
 kmain()
 {       
+
         clearScreen();
-        print("\n\tWelcome to Padma-OS");
+        print("\n \n \n \t \t \t Welcome to \n \n");
+        print("\t  *******       *******      ******\n");
+        print("\t  ********     *********    ********\n");
+        print("\t  **    **     **     **   *** \n");
+        print("\t  **    **     **     **   ** \n");
+        print("\t  **    **     **     **   *** \n");
+        print("\t  ********     **     **    ****   \n");
+        print("\t  *******      **     **       **** \n");
+        print("\t  **           **     **         ***\n");
+        print("\t  **           **     **          **\n");
+        print("\t  **           **     **         ***\n");
+        print("\t  **           *********   *********\n");
+        print("\t  **            *******     *******\n");
+
+        print("\n \t Version 1.0.0");
+      
+      
+
 }
