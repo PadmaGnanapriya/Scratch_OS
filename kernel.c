@@ -1,6 +1,8 @@
+
+//Level 01 is closed.It was low level coding
+/*
 kmain()
 {
-    
     char* vidmen =(char*)0xb8000;
     vidmen[0]='*';
     vidmen[1]=0x01;
@@ -18,5 +20,12 @@ kmain()
     vidmen[13]=0x07;
     vidmen[14]='S';
     vidmen[15]=0x08;
-    
+}
+*/ 
+
+#include "include/screen.h"
+kmain()
+{       
+        clearScreen();
+        print("Hi, And welcome to the IknowOS\nPlease don't forget to subscribe to https://www.youtube.com/user/iknowbrain\nThank you");
 }
