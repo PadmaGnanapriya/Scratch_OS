@@ -22,28 +22,195 @@ kmain()
     vidmen[15]=0x08;
 }
 */ 
-
+#pragma comment(lib, "user32.lib")
 #include "include/screen.h"
 kmain()
 {       
 
         clearScreen();
+               
         print("\n \n \n \t \t \t Welcome to \n \n");
-        print("\t  *******       *******      ******\n");
-        print("\t  ********     *********    ********\n");
-        print("\t  **    **     **     **   *** \n");
-        print("\t  **    **     **     **   ** \n");
-        print("\t  **    **     **     **   *** \n");
-        print("\t  ********     **     **    ****   \n");
-        print("\t  *******      **     **       **** \n");
-        print("\t  **           **     **         ***\n");
-        print("\t  **           **     **          **\n");
-        print("\t  **           **     **         ***\n");
-        print("\t  **           *********   *********\n");
-        print("\t  **            *******     *******\n");
+        delay(1);
+        print("\t  *******  \n");
+        print("\t  ******** \n");
+        print("\t  **    ** \n");
+        print("\t  **    ** \n");
+        print("\t  **    ** \n");
+        print("\t  ******** \n");
+        print("\t  *******  \n");
+        print("\t  **       \n");
+        print("\t  **       \n");
+        print("\t  **       \n");
+        print("\t  **       \n");
+        print("\t  **       \n");
 
-        print("\n \t Version 1.0.0");
+        print("\n \t Version 2.0");    
+        print("\n \t assembly is added");      
+        print("\n Created with high level  kernel.c  file.");
+        delay(2);
+        
+
+        clearScreen();
+               
+        print("\n \n \n \t \t \t Welcome to \n \n");
+        print("\t  *******        \n");
+        print("\t  ********       \n");
+        print("\t  **    **       \n");
+        print("\t  **    **       \n");
+        print("\t  **    **       \n");
+        print("\t  ********  ***  \n");
+        print("\t  *******   * *  \n");
+        print("\t  **        ***  \n");
+        print("\t  **             \n");
+        print("\t  **             \n");
+        print("\t  **             \n");
+        print("\t  **             \n");
+
+        print("\n \t Version 2.0");    
+        print("\n \t assembly is added");      
+        print("\n Created with high level  kernel.c  file.");
+        delay(2);
+        
+
+        clearScreen();
+               
+        print("\n \n \n \t \t \t Welcome to \n \n");
+        print("\t  *******          *******    \n");
+        print("\t  ********        *********   \n");
+        print("\t  **    **        **     **   \n");
+        print("\t  **    **        **     **   \n");
+        print("\t  **    **        **     **   \n");
+        print("\t  ********  ***   **     **   \n");
+        print("\t  *******   * *   **     **   \n");
+        print("\t  **        ***   **     **   \n");
+        print("\t  **              **     **   \n");
+        print("\t  **              **     **   \n");
+        print("\t  **              *********   \n");
+        print("\t  **               *******    \n");
+
+        print("\n \t Version 2.0");    
+        print("\n \t assembly is added");      
+        print("\n Created with high level  kernel.c  file.");
+        delay(2);
+
+        clearScreen();
+               
+        print("\n \n \n \t \t \t Welcome to \n \n");
+        print("\t  *******          *******      ******\n");
+        print("\t  ********        *********    ********\n");
+        print("\t  **    **        **     **   *** \n");
+        print("\t  **    **        **     **   ** \n");
+        print("\t  **    **        **     **   *** \n");
+        print("\t  ********  ***   **     **    ****   \n");
+        print("\t  *******   * *   **     **       **** \n");
+        print("\t  **        ***   **     **         ***\n");
+        print("\t  **              **     **          **\n");
+        print("\t  **              **     **         ***\n");
+        print("\t  **              *********   *********\n");
+        print("\t  **               *******     *******\n");
+
+        print("\n \t Version 2.0");    
+        print("\n \t assembly is added");      
+        print("\n Created with high level  kernel.c  file.");
+        delay(2);
+
+
+        clearScreen();
+               
+        print("\n \n \n \t \t \t Welcome to \n \n");
+        print("\t                   *******      ******\n");
+        print("\t                  *********    ********\n");
+        print("\t                  **     **   *** \n");
+        print("\t                  **     **   ** \n");
+        print("\t                  **     **   *** \n");
+        print("\t            ***   **     **    ****   \n");
+        print("\t            * *   **     **       **** \n");
+        print("\t            ***   **     **         ***\n");
+        print("\t                  **     **          **\n");
+        print("\t                  **     **         ***\n");
+        print("\t                  *********   *********\n");
+        print("\t                   *******     *******\n");
+
+        print("\n \t Version 2.0");    
+        print("\n \t assembly is added");      
+        print("\n Created with high level  kernel.c  file.");
+        delay(2);
+
+        clearScreen();
+               
+        print("\n \n \n \t \t \t Welcome to \n \n");
+        print("\t                   *******      ******\n");
+        print("\t                  *********    ********\n");
+        print("\t                  **     **   *** \n");
+        print("\t                  **     **   ** \n");
+        print("\t                  **     **   *** \n");
+        print("\t                  **     **    ****   \n");
+        print("\t                  **     **       **** \n");
+        print("\t                  **     **         ***\n");
+        print("\t                  **     **          **\n");
+        print("\t                  **     **         ***\n");
+        print("\t                  *********   *********\n");
+        print("\t                   *******     *******\n");
+
+        print("\n \t Version 2.0");    
+        print("\n \t assembly is added");      
+        print("\n Created with high level  kernel.c  file.");
+        delay(2);
+
+        clearScreen();
+               
+        print("\n \n \n \t \t \t Welcome to \n \n");
+        print("\t                                ******\n");
+        print("\t                               ********\n");
+        print("\t                              *** \n");
+        print("\t                              ** \n");
+        print("\t                              *** \n");
+        print("\t                               ****   \n");
+        print("\t                                  **** \n");
+        print("\t                                    ***\n");
+        print("\t                                     **\n");
+        print("\t                                    ***\n");
+        print("\t                              *********\n");
+        print("\t                               *******\n");
+
+        print("\n \t Version 2.0");    
+        print("\n \t assembly is added");      
+        print("\n Created with high level  kernel.c  file.");
+        delay(2);
+
+        clearScreen();
+        delay(2);
+        clearScreen();
+               
+        print("\n \n \n \t \t \t Welcome to \n \n");
+        print("\t  *******          *******      ******\n");
+        print("\t  ********        *********    ********\n");
+        print("\t  **    **        **     **   *** \n");
+        print("\t  **    **        **     **   ** \n");
+        print("\t  **    **        **     **   *** \n");
+        print("\t  ********  ***   **     **    ****   \n");
+        print("\t  *******   * *   **     **       **** \n");
+        print("\t  **        ***   **     **         ***\n");
+        print("\t  **              **     **          **\n");
+        print("\t  **              **     **         ***\n");
+        print("\t  **              *********   *********\n");
+        print("\t  **               *******     *******\n");
+
+        print("\n \t Version 2.0");    
+        print("\n \t assembly is added");      
+        print("\n Created with high level  kernel.c  file.");
+        delay(10);
       
+
+
+
+       // clearScreen();
+        print("\nHardware details");
+
+
+
+        exit_OS();
+
       
 
 }

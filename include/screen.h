@@ -63,19 +63,22 @@ void newLineCheck()
         }
 }
 
+
+
+
 void printch(char c)
 {
     string vidmem = (string) 0xb8000;     
     switch(c)
     {   
-        case (0x08):
+        case (0x08):   //Back space
                 if(cursorX > 0) 
                 {
 	                cursorX--;									
                         vidmem[(cursorY * sw + cursorX)*sd]=0x00;	                              
 	        }
 	        break;
-        case (0x09):    
+        case (0x09):      //Tab space
                 cursorX = (cursorX + 8) & ~(8 - 1); 
                 break;
         case ('\r'):
@@ -110,5 +113,18 @@ void print (string ch)
         }
 }
 
+
+void delay(int seconds){
+
+	unsigned long int count=33333333,i,j;
+	
+	for(i=0;i<seconds;i++)
+	    for(j=0;j<count;j++);
+}
+
+void exit_OS(){
+        
+
+}
 
 #endif
